@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  aseprite-builder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aseprite_builder
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
