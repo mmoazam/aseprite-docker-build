@@ -1,2 +1,2 @@
 # aseprite-docker-build
-build aseprite from a ubuntu container
+build aseprite from an ubuntu container
